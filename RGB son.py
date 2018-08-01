@@ -54,11 +54,11 @@ def dancebaby ():
             
 
 app = App()
-text= Text(app, text="Red Slider", color="red")
+text= Text(app, text="Red Slider", color="blue")
 redslider = Slider(app, command=change_red)
-text2= Text(app, text="Blue Slider", color="blue")
+text2= Text(app, text="Blue Slider", color="green")
 blueslider = Slider(app, command=change_blue)
-text3= Text(app, text="Green Slider", color="green")
+text3= Text(app, text="Green Slider", color="red")
 greenslider = Slider(app, command=change_green)
 pushbutton = PushButton(app, command=dancebaby)
 
